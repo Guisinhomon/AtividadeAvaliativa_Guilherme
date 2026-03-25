@@ -31,3 +31,17 @@ Escolhi focar nisso porque vender é a parte que acontece o tempo todo na farmá
 
 ---
 
+# 2. Regras de Negócio (mínimo 5)
+
+RN01 — O sistema não pode permitir a venda de produtos que não tenham estoque disponível  
+
+RN02 — Toda venda deve atualizar automaticamente o estoque da farmácia  
+
+RN03 — Vendas a prazo devem gerar automaticamente uma conta a receber pro cliente  
+
+RN04 — Clientes precisam estar cadastrados pra conseguir comprar a prazo  
+
+RN05 — Compras feitas pelos fornecedores devem atualizar o estoque e gerar contas a pagar pro financeiro
+(Adicione mais se quiser.)
+
+---
