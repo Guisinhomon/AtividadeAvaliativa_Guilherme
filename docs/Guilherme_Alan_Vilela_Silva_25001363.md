@@ -45,3 +45,23 @@ RN05 — Compras feitas pelos fornecedores devem atualizar o estoque e gerar con
 (Adicione mais se quiser.)
 
 ---
+
+# 3. Requisitos Funcionais (mínimo 8)
+
+RF01 — O sistema deve permitir cadastrar e identificar clientes  
+
+RF02 — O sistema deve permitir consultar produtos disponíveis  
+
+RF03 — O sistema deve verificar automaticamente se o produto tem estoque antes da venda  
+
+RF04 — O sistema deve registrar vendas à vista  
+
+RF05 — O sistema deve registrar vendas a prazo e gerar contas a receber  
+
+RF06 — O sistema deve atualizar automaticamente o estoque depois de cada venda  
+
+RF07 — O sistema deve emitir um comprovante de venda pro cliente  
+
+RF08 — O sistema deve permitir consultar o histórico de vendas de cada cliente
+
+---
