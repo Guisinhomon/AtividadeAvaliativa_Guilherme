@@ -65,3 +65,15 @@ RF07 — O sistema deve emitir um comprovante de venda pro cliente
 RF08 — O sistema deve permitir consultar o histórico de vendas de cada cliente
 
 ---
+  
+# 4. Requisitos Não Funcionais (mínimo 4)
+
+RNF01 — O sistema deve ser rápido e responder às ações do usuário sem travar  
+
+RNF02 — O sistema deve ser seguro, garantindo que só usuários autorizados acessem certas funções  
+
+RNF03 — O sistema deve funcionar 24 horas, já que a farmácia pode precisar de consultas a qualquer momento  
+
+RNF04 — O sistema deve ser fácil de usar, com interface simples pra atendentes, gerentes e farmacêuticos
+
+---
