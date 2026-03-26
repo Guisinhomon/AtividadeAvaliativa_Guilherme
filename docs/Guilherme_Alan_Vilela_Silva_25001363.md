@@ -77,3 +77,44 @@ RNF03 — O sistema deve funcionar 24 horas, já que a farmácia pode precisar d
 RNF04 — O sistema deve ser fácil de usar, com interface simples pra atendentes, gerentes e farmacêuticos
 
 ---
+
+# 5. Casos de Uso (mínimo 10)
+
+Meus atores
+ Atendente  
+ Cliente  
+ Gerente  
+ Finaanceiro  
+
+Casos de Uso
+
+UC01 — Cadastrar/Identificar Cliente  
+UC02 — Consultar Produto  
+UC03 — Verificar Estoque  
+UC04 — Registrar Venda  
+UC05 — Emitir Comprovante de Venda  
+UC06 — Registrar Venda a Prazo  
+UC07 — Atualizar Estoque  
+UC08 — Consultar Histórico de Vendas do Cliente  
+UC09 — Gerenciar Produtos (cadastrar/editar)  
+UC10 — Gerar Contas a Receber  
+
+### Relações Include e Extend
+
+ Include (sempre acontece dentro do processo):
+ Registrar Venda <<include>> Verificar Estoque  
+ Registrar Venda <<include>> Cadastrar/Identificar Cliente  
+ Registrar Venda a Prazo <<include>> Registrar Venda  
+
+ Extend (acontece só em algumas situações):  
+ Emitir Comprovante de Venda <<extend>> Registro de Venda  
+ Registrar Venda a Prazo <<extend>> Gerar Contas a Receber  
+ Consultar Histórico de Vendas do Cliente <<extend>> Cadastrar/Identificar Cliente  
+
+ Foto do Diagrama:
+
+ 
+ <img width="508" height="1026" alt="image" src="https://github.com/user-attachments/assets/3bd11278-8846-430d-b235-96dacf4779c3" />
+
+
+---
